@@ -39,6 +39,7 @@ function* watchFetchAllProduct({ payload }) {
   try {
     const res = yield call(axiosService.get, payload);
     yield put(AC_fetch_all_product_success(res.data));
+    yield delay(500)
     yield put(AC_hide_loading());
     console.log(res);
   } catch (error) {
@@ -51,6 +52,7 @@ function* wacthFetchProductPerpage({ payload }) {
   try {
     const res = yield call(axiosService.get, payload);
     yield put(AC_fetch_product_perpage_success(res.data.body));
+    yield delay(500)
     yield put(AC_hide_loading());
     console.log(res);
   } catch (error) {
@@ -63,6 +65,7 @@ function* watchFetchAllProductWhenChangeBrand({ payload }) {
   try {
     const res = yield call(axiosService.get, payload);
     yield put(AC_fetch_all_product_when_change_brand_success(res.data));
+    yield delay(500)
     yield put(AC_hide_loading());
     console.log(res);
   } catch (error) {
@@ -75,6 +78,7 @@ function* watchFetchAllProductWhenChangeType({ payload }) {
   try {
     const res = yield call(axiosService.get, payload);
     yield put(AC_fetch_all_product_when_change_type_success(res.data));
+    yield delay(500)
     yield put(AC_hide_loading());
     console.log(res);
   } catch (error) {
@@ -87,6 +91,7 @@ function* watchFetchAllProductWhenChangeRating({ payload }) {
   try {
     const res = yield call(axiosService.get, payload);
     yield put(AC_fetch_all_product_when_change_rating_success(res.data));
+    yield delay(500)
     yield put(AC_hide_loading());
     console.log(res);
   } catch (error) {
