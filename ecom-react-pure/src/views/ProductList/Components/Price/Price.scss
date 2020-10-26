@@ -1,0 +1,28 @@
+.filter{
+    &__price{
+        margin-top: 15px;
+        li{
+            font-size: 12px;
+            margin-bottom: 6px;
+            cursor: pointer;
+            &:hover{
+                color: brown;
+            }
+        }
+        &__input{
+            display: flex;
+            input{
+                width: 30%;
+                margin: 0 5px;
+            }
+            button{
+                font-size: 10px;
+                padding: 0px;
+                cursor: pointer;
+                border: 1px solid gray;
+                outline: none;
+            }
+            
+        }
+    }
+}

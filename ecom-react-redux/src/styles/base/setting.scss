@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Verdana, sans-serif;
+}
+
+img {
+    max-width: 100%;
+
+    display: block;
+    object-fit: cover;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+.line-clamp {
+    display: -webkit-box;
+
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+    &--4 {
+        -webkit-line-clamp: 4;
+    }
+}

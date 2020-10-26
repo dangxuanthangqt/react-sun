@@ -1,0 +1,27 @@
+.category {
+    margin-left: -10px;
+    margin-top: 15px;
+    padding-bottom: 20px;
+    
+    &__title {
+        outline: none;
+        width: 100%;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        display: inline-block;
+        font-size: 12px;
+        cursor: pointer;
+
+        &:hover {
+            color: brown;
+        }
+        &--active{
+            font-weight: bold;
+        }
+    }
+
+    &__list {
+        margin-left: 10px;
+    }
+}

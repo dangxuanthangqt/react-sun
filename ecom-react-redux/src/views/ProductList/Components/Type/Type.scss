@@ -1,0 +1,16 @@
+.filter{
+    &__type{
+        font-size: 12px;
+        &__title{
+            font-weight: bold;
+            font-size: 12px;
+            margin-bottom: 10px;
+        }
+        &__label{
+            cursor: pointer;
+            &:hover{
+                color: brown;
+            }
+        }
+    }
+}

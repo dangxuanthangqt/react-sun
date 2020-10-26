@@ -1,0 +1,28 @@
+appliance
+ 	fans
+		celling
+		table
+		windows
+
+"Appliances",
+        "Freezers & Ice Makers",
+       	 	"Chest Freezers"
+Appliances > Freezers & Ice Makers > Ice Makers
+"Appliances > Microwaves > Compact Microwaves"
+ "lvl1": "Appliances > Heaters"
+
+"lvl1": "Audio > Auxiliary Input Cables"
+
+"lvl2": "Audio > Headphones > Earbud & In-Ear Headphones"
+"lvl2": "Audio > Headphones > Headphone Accessories",
+
+ "lvl1": "Cameras And Camcorders > Binoculars"
+"lvl2": "Cameras And Camcorders > Camcorders > Action Camcorders",
+
+
+
+ "lvl2": "Computers & Tablets > Monitors > 4K Ultra HD Monitors"
+"lvl2": "Computers & Tablets > Monitors > LCD Monitors"
+
+"lvl1": "Video Games > Funko Collectibles"
+ "lvl2": "Video Games > PlayStation 4 > PS4 Accessories",

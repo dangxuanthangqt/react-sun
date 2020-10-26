@@ -1,0 +1,30 @@
+.filter{
+    &__brand{
+        margin-top: 20px;
+        font-size: 12px;
+        &__search{
+            div{
+                display: flex;
+                padding: 5px;
+                border-radius: 5px;
+                border: 1px solid #888888;
+                margin-bottom: 10px;
+                input{
+                    outline: none;
+                    border: none;
+                    width: 90%;
+                    
+                }
+                button{
+                    color: gray;
+                    width: 10%;
+                    outline: none;
+                    border: none;
+                    cursor: pointer;
+                    background-color: white;
+                   
+                }
+            }
+        }
+    }
+}

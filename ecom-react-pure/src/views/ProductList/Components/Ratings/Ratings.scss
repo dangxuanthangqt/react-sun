@@ -1,0 +1,29 @@
+.ratings {
+    margin-top: 10px;
+
+    &__list-star {
+        cursor: pointer;
+        i {
+            color: #FFBE61;
+            padding-right: 2px;
+            padding-bottom: 2px;
+            font-size: 10px;
+        }
+    }
+    &__item{
+        display: flex;
+        align-items: baseline;
+        span{
+            font-size: 13px;
+            padding-left: 10px;
+            cursor: pointer;
+            &:hover{
+                color: brown;
+            }
+        }
+        &-active{
+            font-size: 14px;
+            font-weight: bold;
+        }
+    }
+}
